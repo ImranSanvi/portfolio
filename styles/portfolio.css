@@ -151,3 +151,35 @@ main{
 }
 
 
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+/* footer */
+
+.experience-subtittle, .exeperience-description{
+    color: #757575;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 44px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
